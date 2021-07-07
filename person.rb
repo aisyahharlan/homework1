@@ -29,18 +29,7 @@ class Person
     end
 
   
-    class jinsakai < Person
-     
-    def take_damage(damage)
-        @hitpoint = damage
-    end 
-
-    def deflect?
-        if @hitpoint = hitpoint
-            puts "#{name} deflects the attack"
-            true
-        end
-  end
+    
 
    
         
